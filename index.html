@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Checklist</title>
+</head>
+<body>
+    <p class="main-title">TODAY'S CHECKLIST</p>
+    <input placeholder="Enter your Activity"class="title-input" id="checklist-title" type="text"></input>
+    <input class="date-picker" id="checklist-date" type="date"></input>
+    <button class="add-button" onclick="addChecklist()">Add to Checklist</button>
+    <button class="save-button" onclick="saveChecklist()">Save</button>
+    <p></p>
+    <b class="today-title">Today's Checklist</b>
+    <div class="todayChecklist" id="today-checklist"></div>
+    <p style="margin-bottom: 30px; width: 300px;"></p>
+    <b class="finish-title">Today's Completed Checklist</b>
+    <div class="todayFinishlist" id="today-finishlist"></div>
+    <p style="margin-bottom: 30px; width: 300px;"></p>
+    <b class="checklist-title">Upcoming Checklist</b> 
+    <div class="checklist" id="checklist"></div>
+    <p style="margin-bottom: 30px; width: 300px;"></p>
+    <b class="unfinished-title">Unfinished Checklist</b>
+    <div class="unfinishedChecklist" id="unfinished-checklist"></div>
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
